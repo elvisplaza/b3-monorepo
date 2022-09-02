@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { UsersModule } from './users/users.module';
+import { ArticlesModule } from './articles/articles.module';
 
 @Module({
   imports: [
@@ -8,6 +9,7 @@ import { UsersModule } from './users/users.module';
       'mongodb+srv://dev:b9xGcJZTnKSe6oNG@cluster0.zrzoqgp.mongodb.net/test',
     ),
     UsersModule,
+    ArticlesModule,
   ],
   controllers: [],
   providers: [],
