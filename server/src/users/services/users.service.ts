@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { response } from 'express';
+
 import { Model } from 'mongoose';
 
 // model
@@ -11,11 +11,12 @@ export class UsersService {
   // you put name because it's the name of the model
   constructor(@InjectModel(User.name) private userModel: Model<UserDocument>){}
 
-  getUser(){
-    response.send("hello")
+  getUser(id: string){
+    const user = this.userModel.findById(id);
+    return user;
   }
-  createUser(): Promise<User>{
-    const newUser = new this.userModel({})
+  createUser(createUser: any): Promise<User>{
+    const newUser = new this.userModel(createUser)
     return newUser.save();
   }
 }
