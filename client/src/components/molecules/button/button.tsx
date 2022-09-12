@@ -1,24 +1,29 @@
 import React, { ReactNode } from "react";
 import ButtonUnstyled from "@mui/base/ButtonUnstyled";
 
+import { TextPrimary } from "components/atoms";
 // styles
 import styled from "styled-components";
 
 export const BaseButton = styled(ButtonUnstyled)`
   padding: 10px;
   border-radius: 5px;
-  height: 40px;
-  width: 100px;
-  min-width: 1000px;
+  background-color: #12c5ac;
+  color: #000000;
+  width: 350px;
+  border: 0px;
+  cursor: pointer;
 `;
 
 interface ButtonProps {
-  children: ReactNode;
+  text: string;
 }
-export const Button = ({ children }: ButtonProps) => {
+export const Button = ({ text }: ButtonProps) => {
   return (
     <div>
-      <BaseButton>{children}</BaseButton>
+      <BaseButton>
+        <TextPrimary>{text}</TextPrimary>
+      </BaseButton>
     </div>
   );
 };

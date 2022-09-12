@@ -54,7 +54,7 @@ export const h3Secondary = styled.h2`
   color: #12c5ac;
 `;
 
-export const pPrimary = styled.p`
+export const TextPrimary = styled.p`
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.5625rem;
