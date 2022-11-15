@@ -108,6 +108,11 @@
   margin-left: 0.5rem;
 }
 
+.wrapper {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

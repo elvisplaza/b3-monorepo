@@ -10,7 +10,7 @@ export const BaseButton = styled(ButtonUnstyled)`
   border-radius: 5px;
   background-color: #12c5ac;
   color: #000000;
-  width: 350px;
+  width: 250px;
   border: 0px;
   cursor: pointer;
 `;

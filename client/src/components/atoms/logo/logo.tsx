@@ -1,17 +1,21 @@
 import Image from "next/image";
 
 interface LogoProps {
-  url: string;
+  src: string;
   alt: string;
   className?: string;
 }
 
-export const Logo = ({ url, alt, className }: LogoProps) => {
+export const Logo = ({ className, src, alt }: LogoProps) => {
   return (
-    <Image
-      src={url}
-      alt={alt}
-      className={className}
-    />
+    <section>
+      <Image
+        src={src}
+        alt={alt}
+        className={className}
+        width="60px"
+        height="60px"
+      />
+    </section>
   );
 };

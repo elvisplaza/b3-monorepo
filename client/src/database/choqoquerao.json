@@ -1,0 +1,149 @@
+{
+  "totalHours": 96,
+  "currency": "SOL",
+  "directions": [
+    {
+      "day": 1,
+      "base": {
+        "name": "cusco",
+        "type": "city"
+      },
+      "path": {
+        "type": "bus",
+        "price": 25,
+        "currency": "SOL",
+        "duration": "3 hours"
+      },
+      "end": {
+        "name": "Ramal de Cachora",
+        "type": "stop"
+      }
+    },
+    {
+      "day": 1,
+
+      "base": {
+        "name": "Ramal de Cachora",
+        "type": "stop"
+      },
+      "path": {
+        "type": "taxi",
+        "price": 60,
+        "currency": "SOL",
+        "duration": "45mins"
+      },
+      "end": {
+        "name": "mirardor",
+        "type": "stop"
+      }
+    },
+    {
+      "day": 1,
+
+      "base": {
+        "name": "mirardor",
+        "type": "stop"
+      },
+      "path": {
+        "type": "walk",
+        "price": 0,
+        "currency": "SOL",
+        "duration": "3hr"
+      },
+      "end": {
+        "name": "calciluyo",
+        "type": "village"
+      }
+    },
+    {
+      "day": 2,
+
+      "base": {
+        "name": "calciluyo",
+        "type": "village"
+      },
+      "path": {
+        "type": "walk",
+        "price": 0,
+        "currency": "SOL",
+        "duration": "6hrs"
+      },
+      "end": {
+        "name": "choqoquerao",
+        "type": "town"
+      }
+    },
+    {
+      "day": 2,
+
+      "base": {
+        "name": "choqoquirao",
+        "type": "ruins"
+      },
+      "path": {
+        "type": "roam",
+        "price": 80,
+        "currency": "SOL",
+        "duration": "6hrs"
+      },
+      "end": {
+        "name": "choqoquerao",
+        "type": "ruins"
+      }
+    },
+    {
+      "day": 3,
+
+      "base": {
+        "name": "choqoquerao",
+        "type": "ruins"
+      },
+      "path": {
+        "type": "walk",
+        "price": 0,
+        "currency": "SOL",
+        "duration": "4hrs"
+      },
+      "end": {
+        "name": "calciluyo",
+        "type": "stop"
+      }
+    },
+    {
+      "day": 4,
+
+      "base": {
+        "name": "calciluyo",
+        "type": "stop"
+      },
+      "path": {
+        "type": "walk",
+        "price": 0,
+        "currency": "SOL",
+        "duration": "4hrs"
+      },
+      "end": {
+        "name": "mirador",
+        "type": "stop"
+      }
+    },
+    {
+      "day": 4,
+
+      "base": {
+        "name": "mirador",
+        "type": "stop"
+      },
+      "path": {
+        "type": "taxi",
+        "price": 100,
+        "currency": "SOL",
+        "duration": "4hrs"
+      },
+      "end": {
+        "name": "cusco",
+        "type": "city"
+      }
+    }
+  ]
+}

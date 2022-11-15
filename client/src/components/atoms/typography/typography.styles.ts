@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const h1Primary = styled.h1`
+export const H1Primary = styled.h1`
   font-size: 3rem;
   margin: 0;
   margin-bottom: 0.3125rem;
@@ -9,7 +9,7 @@ export const h1Primary = styled.h1`
   font-weight: bold;
 `;
 
-export const h1Secondary = styled.h1`
+export const H1Secondary = styled.h1`
   font-size: 3rem;
   margin: 0;
   margin-bottom: 0.3125rem;
@@ -57,5 +57,11 @@ export const h3Secondary = styled.h2`
 export const TextPrimary = styled.p`
   font-size: 1.25rem;
   font-weight: 400;
+  line-height: 1.5625rem;
+`;
+
+export const SubheadingPrimary = styled.p`
+  font-size: 1.5rem;
+  font-weight: 600;
   line-height: 1.5625rem;
 `;
